@@ -1,0 +1,59 @@
+.box{
+    width: 100%;
+    height: 500px;
+}
+.one{
+    background-color: black;
+}
+.color{
+    color: #ffff;
+    font-size: 105px;
+}
+
+.flex{
+display: flex;
+justify-content:center;
+align-items: center;
+}
+
+.button{
+    display: block;
+    background-color: #ffff;
+    color: black;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+    
+    .showbtn{
+        
+         background-color: black;
+         color: #ffff;
+         width: 400px;
+         margin: 20px 0px 10px 0px;
+    }
+    .showbtn2{
+        
+        background-color: black;
+        color: #ffff;
+        width: 400px;
+
+    }
+
+    .first{
+        background-color: black;
+        color: #ffff;
+    }
+.last{
+    background-color: black;
+    color: #ffff;
+    
+}
+    .display{
+        display: block;
+    }
+
+    .name{
+        background-color: aquamarine;
+        color: black;
+    }

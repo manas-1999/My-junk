@@ -1,0 +1,78 @@
+<!-- -------------------------------------- -->
+<!-- ng class -->
+
+<!-- <div [ngClass]="'one color box flex'">
+    hello
+
+</div> -->
+
+<!-- passing the variable -->
+
+<!-- <div [ngClass]="css">
+    hello
+
+</div> -->
+
+<!-- condition with objects
+
+<div [ngClass]="{'one':true,'box':true,'flex':false,'color':true}">
+    hello
+</div> -->
+
+<!-- conditions
+<div [ngClass]="condition === 'flex'? 'flex' : 'one box color'">
+    hello
+</div> -->
+
+
+<!-- <div [ngClass]="condition === 'flex'? 'flex one box color' : 'display'">
+    hello
+</div>
+
+<div [ngClass]="'button'">
+    <button type="submit" class="showbtn2" (click)='Hide()'>Hide</button>
+
+    <button type="submit" class="showbtn" (click)='show()'>Show</button>
+</div> -->
+
+<!-- ---------------------------------------------------- -->
+
+<!-- ngstyle -->
+<!-- ------------------------------------------ -->
+
+<!-- <div [ngStyle]="{'background-color':'green', 'color':'#ffff','display':'flex'}">
+    hello
+</div> -->
+
+<!-- ----------------------------------- -->
+
+
+<!-- <div [ngStyle]="{'color': txt_color==='blue'? 'blue' : 'green','background-color':'black'}"> 
+
+    hello
+</div> -->
+
+<!-- =============================== -->
+
+<!-- ---------ngfor--------------- -->
+
+<table align="center" border="1">
+    <!-- <th>names</th> -->
+
+    <th>
+        <tr *ngFor="let names of array; index as i;first as f;last as l">
+            <td [ngClass]="{'first':f, 'last':l}">{{i+1}}{{array[i]}}</td>            
+        </tr>
+
+
+    </th>
+
+    
+</table>
+
+<div [innerHTML]="myname" [ngClass]="'name'">
+
+</div>
+
+
+

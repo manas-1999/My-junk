@@ -1,0 +1,198 @@
+<app-header></app-header>
+
+<div class="box">
+  <div class="container">
+    <div class="mycards">
+      <div style="z-index:3;" class="row  sign-up-container">
+        <div class="col-md-6">
+          <div class="right-side">
+            <h2 class="heading">Create Account</h2>
+            <div class="social-icons">
+              <div class="circle-icon">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+
+              <div class="circle-icon">
+                <i class="fab fa-google-plus-g"></i>
+              </div>
+
+              <div class="circle-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+            </div>
+
+            <p>Lorem ipsum dolor sit.</p>
+
+            <div class="forms_box">
+
+              <div class="container_box">
+
+                <form [formGroup]="signupform" (ngSubmit)="submitData()">
+
+                  <div class="form-group">
+                    <label for="exampleInputname">Name</label>
+                    <input type="text" class="form-control" formControlName="name" id="exampleInputname" placeholder="Enter Name">
+                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control"  formControlName="email" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Enter email">
+                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control"  formControlName="password" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <!-- <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div> -->
+                  <div class="signupbtn">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </form>
+
+
+              </div>
+
+
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+        <!-- 2nd box -->
+
+        <div class="col-md-6">
+          <div class="left-side">
+            <div class="h2_text">
+
+              <h2>Welcome to Foodie's</h2>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eveniet deserunt laborum inventore
+                voluptatem sapiente molestiae vero iusto, in quod!</p>
+
+
+                <div class="signupbtn">
+                  <button type="submit" (click)="changeIndex()" id ="signinbtn" class="btn_class btn-primary">Sign In &nbsp; &#8594;</button>
+    
+                </div>
+
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- 2nd row -->
+
+      <div [ngStyle]="{'z-index':z_index}" class="row formcontainer sign-in-container">
+        <div class="col-md-6">
+          <div class="right-side">
+            <h2 class="heading">Login an Account</h2>
+            <div class="social-icons">
+              <div class="circle-icon">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+
+              <div class="circle-icon">
+                <i class="fab fa-google-plus-g"></i>
+              </div>
+
+              <div class="circle-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+            </div>
+
+            <p>Lorem ipsum dolor sit.</p>
+
+            <div class="forms_box">
+
+              <div class="container_box">
+
+                <form [formGroup]="signupform" (ngSubmit)="LoginUser()">
+
+
+                  <div class="form-group">
+                    <label for="exampleInputname1">Name</label>
+                    <input type="email" class="form-control"  formControlName="name" id="exampleInputname1" aria-describedby="emailHelp"
+                      placeholder="Enter name">
+                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                  </div>
+                     
+                  
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control"  formControlName="email" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Enter email">
+                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                  </div>
+
+
+
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control"  formControlName="password" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <!-- <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div> -->
+                  <div class="signupbtn">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                  </div>
+                </form>
+
+
+              </div>
+
+
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+        <!-- 2nd box -->
+
+        <div class="col-md-6">
+          <div class="left-side">
+            <div class="h2_text">
+
+              <h2>Welcome Back!</h2>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eveniet deserunt laborum inventore
+                voluptatem sapiente molestiae vero iusto, in quod!</p>
+
+
+                <div class="signupbtn">
+                  <button type="submit" id ="signupbtn" (click)="change_z_index()" class="btn_class btn-primary">Sign up &nbsp; &#8594;</button>
+    
+                </div>
+
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>

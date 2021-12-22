@@ -1,0 +1,237 @@
+
+
+<section id="explore-junk-food">
+    <div class="junk-food margin-top">
+        <div class="container-fluid bg-color pt-5  pb-5 mb-5 mt-5">
+           <div class="container pt-2 margin-top">
+
+             
+
+                <div class="filter-section mb-5">
+                    <div class="row">
+                        <div class="col-md-1 border-radius">
+                            <i class="fas fa-filter"></i>
+                            Filters
+                        </div>
+                        <div class="col-md-1 border-radius">
+                            Rating:4.0+
+                        </div>
+                        <div class="col-md-1 border-radius">
+                            Safe and Hygenic 
+                        </div>
+                        <div class="col-md-1 border-radius">
+                            Pure veg
+                        </div>
+                        <div class="col-md-1 border-radius">
+                            <i class="fas fa-history"></i>
+                            Delievery Time
+                        </div>
+                        <div class="col-md-1 border-radius">
+                            Great Offers
+                        </div>
+                    </div>
+                </div>
+               
+               <h2>Inspiration For your first Order</h2>
+               <div class="row">
+                
+                <div class="col-12">
+
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+               
+               <div class="row pt-3">
+                   <div class="col-lg-3 col-md-4"  *ngFor="let data of user_array">
+                  <div class="card width bg-image">
+                <img src="{{data.img}}" alt="">
+                
+
+            </div>
+            <p class="size">{{data.text}}</p>
+            </div>
+
+
+           
+
+            
+
+
+                
+
+
+
+
+
+            </div>
+
+</div>
+
+<!-- carousel item 2 -->
+
+<div class="carousel-item ">
+               
+    <div class="row pt-3">
+        <div class="col-lg-3 col-md-4"  *ngFor="let data of user_array">
+       <div class="card width bg-image">
+     <img src="{{data.img}}" alt="">
+     
+
+ </div>
+ <p class="size">{{data.text}}</p>
+ </div>
+
+ 
+
+
+     
+
+
+
+
+
+ </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- item 2 end here -->
+
+
+</div>
+</div>
+
+
+            </div>
+            </div>
+            </div>
+           </div>
+           <div class="container">
+           <div class="parterners-section">
+               <h2>Our Parteners</h2>
+
+               <div class="this-section mt-5">
+                   <div class="row">
+                       <div class="col-md-12">
+                           <div class="row">
+                           <div class="col-md-2 forSize back" > 
+                               
+                             <img src="assets/images/Parteners/Mcdelievery.png" alt="">
+                           </div>
+                           <div class="col-md-2 forSize " > 
+                                
+                                <img src="assets/images/Parteners/dominos pizza.png" alt="">
+                           </div>
+                           <div class="col-md-2  forSize "  >
+                               
+                            <img src="assets/images/Parteners/KFC_logo.svg.png" alt="">
+                           </div>
+                           <div class="col-md-2 forSize  " >
+                            <img src="assets/images/Parteners/burgerking.png" alt="">
+                           </div>
+                           <div class="col-md-2 forSize " >
+                            <img src="https://b.zmtcdn.com/data/brand_creatives/logos/1356425eff0c9acd8ab6b0ad351759e4_1611253489.png?output-format=webp" alt="">
+                           </div>
+                           <div class="col-md-2 forSize ">
+                            <img src="https://b.zmtcdn.com/data/brand_creatives/logos/22529ff52d41a4aa3b36ac1e7e0c0db3_1605099406.png?output-format=webp" alt="">
+                           </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           </div>
+        </div>
+
+        <div class="container">
+            <div class="dflex">
+            <div class="heading ">
+                <h1 style="color: black;">Nearby Reasturents</h1>
+
+            </div>
+
+                <div class="container ">          
+                    <div class="search-box ">
+                       <div class="row">
+                         <div class="col-md-1 text-center ms-auto my-auto">
+                             <i class="fa fa-search" aria-hidden="true"></i>
+                         </div>  
+                         
+                         <div class="col-md-10 form-group">
+                             <input type="text" class="form-control" [(ngModel)]="searchterm" (keyup)="search($event)" placeholder="Search for restaurent, cuisine or a dish">
+                         </div>
+                         </div>       
+                     </div>
+                     </div>
+
+                    </div>
+            
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row mb-5">
+
+                        <div class="col-md-4 hover" *ngFor="let info of product_array | filter:searchterm:'title'">
+                            <div class="card_img_design">
+                                <div class="card_img">
+                                    <img src="{{info.img}}" alt="">
+                                </div>
+                            </div>
+                            <div class="span-text mt-2">{{info.title}} </div>
+                            <div class="product_add">
+                                <div>
+                            <p>{{info.small_title}}</p>
+                            </div>
+                            
+                            </div>       
+                        
+                              
+                            <hr>
+                            <p><span class="product-logo"><img src="assets/card_img/logo.webp" alt=""></span>{{info.counts}}</p>
+                            <button (click)=addtocart(info)  class="btn btn-success">Add to cart</button>
+                        </div>
+
+
+
+                        
+
+
+
+
+                    </div>
+
+  <!-- 2nd row -->
+
+
+  
+
+
+<!-- 3rd row -->
+
+
+<!-- 4th row -->
+
+
+
+<!-- 5th row -->
+
+
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+</section>
+

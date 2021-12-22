@@ -1,0 +1,23 @@
+.modal-header{
+    border-bottom: 0px;
+}
+
+.modal-title{
+    font-size: 34px;
+    line-height: 2rem;
+    /* margin: 1.5rem 0px; */
+    font-weight: 500;
+    color: rgb(79, 79, 79);
+}
+
+/* .modal-dialog{
+    width: 26rem;
+    height: auto;
+    border-radius: 0.6rem;
+    box-shadow: rgb(28 28 28 / 15%) 0px 1.2rem 7rem;
+} */
+
+.modal-dialog input{
+    padding: 12px;
+
+}

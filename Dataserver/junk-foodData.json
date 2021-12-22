@@ -1,0 +1,250 @@
+{
+  "myData": [
+    {
+      "id": 1,
+      "img": "https://media.istockphoto.com/photos/dinner-picture-id185109733?b=1&k=20&m=185109733&s=170667a&w=0&h=PpPlmIKM3Vdn9cRFAsEV9yigpqPJ_jJ1BXE7iiyyxiA=",
+      "text": "Parantha"
+    },
+    {
+      "id": 2,
+      "img": "https://media.istockphoto.com/photos/dinner-picture-id185109733?b=1&k=20&m=185109733&s=170667a&w=0&h=PpPlmIKM3Vdn9cRFAsEV9yigpqPJ_jJ1BXE7iiyyxiA=",
+      "text": "Chole Bhature"
+    },
+    {
+      "id": 3,
+      "img": "https://b.zmtcdn.com/data/dish_images/feeda814f33635efbec3a8870128c3831612467117.png",
+      "text": "Sandwich"
+    },
+    {
+      "id": 4,
+      "img": "https://b.zmtcdn.com/data/dish_images/40aa412263adf79fa5f0e3422b74a61f1613068188.png",
+      "text": "Dosa"
+    }
+  ],
+  "myUsers": [
+    {
+      "name": "HARPREET SINGH",
+      "email": "HS458305@GMAIL.COM",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "Manas sharma",
+      "email": "sharmamanas153@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "pradde sharma",
+      "email": "pradee09@gmail.com",
+      "password": "5555555",
+      "id": 3
+    },
+    {
+      "name": "ankush",
+      "email": "ankush@gmail.com",
+      "password": "hello",
+      "id": 4
+    },
+    {
+      "name": null,
+      "email": null,
+      "password": null,
+      "id": 5
+    },
+    {
+      "name": null,
+      "email": "lakshyagupta2020@gmail.com",
+      "password": "hello@123",
+      "id": 6
+    },
+    {
+      "name": null,
+      "email": "sharmamanas153@gmail.com",
+      "password": "lovelydishu",
+      "id": 7
+    },
+    {
+      "name": null,
+      "email": null,
+      "password": null,
+      "id": 8
+    },
+    {
+      "name": "pinku",
+      "email": "hello@gmail.com",
+      "password": "hello@123",
+      "id": 9
+    },
+    {
+      "name": "pinku",
+      "email": "hello@gmail.com",
+      "password": "hello@123",
+      "id": 10
+    },
+    {
+      "name": "piipii",
+      "email": "pipi@gmail.com",
+      "password": "pinku@123",
+      "id": 11
+    },
+    {
+      "name": "piipii",
+      "email": "pipi@gmail.com",
+      "password": "pinku@123",
+      "id": 12
+    },
+    {
+      "name": "lala",
+      "email": "lala@gmai.com",
+      "password": "hello@123",
+      "id": 13
+    },
+    {
+      "name": "lala",
+      "email": "lala@gmai.com",
+      "password": "hello@123",
+      "id": 14
+    },
+    {
+      "name": "seema",
+      "email": "sharma@gmail.com",
+      "password": "sema@123",
+      "id": 15
+    },
+    {
+      "name": "nitika",
+      "email": "nitika123@gmail.com",
+      "password": "1234",
+      "id": 16
+    },
+    {
+      "name": "Rohit soni",
+      "email": "rohit123@gmail.com",
+      "password": "1234",
+      "id": 17
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "img": "assets/card_img/Parantha.webp",
+      "title": "Pandit ji Prantha",
+      "small_title": "North India, Bevarages",
+      "counts": "8875+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 2,
+      "img": "assets/card_img/hungry point.webp",
+      "title": "Hungry Point",
+      "small_title": "Fast Food,Pizzas,Bevarages",
+      "counts": "1125+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 3,
+      "img": "assets/card_img/burgerking.webp",
+      "title": "Burger King",
+      "small_title": "Burger,Fast Food,Bevarages...",
+      "counts": "2125+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 4,
+      "img": "assets/card_img/cheese roll.webp",
+      "title": "Kathi Junction",
+      "small_title": "Chinese,Fast Food,Rolls...",
+      "counts": "1452+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 5,
+      "img": "assets/card_img/noodels.webp",
+      "title": "Snacks Bar",
+      "small_title": "Chinese,Fast Food...",
+      "counts": "1800+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 6,
+      "img": "assets/card_img/chinese.webp",
+      "title": "Basant Restaurent",
+      "small_title": "North Indian,Chinese,Pizza...",
+      "counts": "1215+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 7,
+      "img": "assets/card_img/panner.webp",
+      "title": "Basant Restaurent",
+      "small_title": "North Indian,Chinese,Pizza...",
+      "counts": "1015+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 8,
+      "img": "assets/card_img/noodels.webp",
+      "title": "Pinky Bakery",
+      "small_title": "Bakery,Deserts,Chinese,Pizza...",
+      "counts": "4225+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 9,
+      "img": "assets/card_img/mukesh food.webp",
+      "title": "Mukesh Fast Food",
+      "small_title": "Chinese,Fast Food",
+      "counts": "725+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 10,
+      "img": "assets/card_img/Sandwitch.webp",
+      "title": "Sharman Jain Sweets",
+      "small_title": "North Indian,Fast Food...",
+      "counts": "4200+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 11,
+      "img": "assets/card_img/Dosa.webp",
+      "title": "Umesh South Indian Dossa",
+      "small_title": "South Indian",
+      "counts": "1025+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 12,
+      "img": "assets/card_img/chwla ice cream.webp",
+      "title": "Chawla Ice cream & Sweets",
+      "small_title": "Mithai,Ice cream,Desserts",
+      "counts": "15225+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 13,
+      "img": "assets/card_img/rishiveg.webp",
+      "title": "Rishi Vegetarian Dhaba NK",
+      "small_title": "North Indian",
+      "counts": "13225+ orders placed recently from here",
+      "price": 450
+    },
+    {
+      "id": 14,
+      "img": "assets/card_img/Parantha.webp",
+      "title": "Parantha Restaurent",
+      "counts": "17225+ orders placed recently from here",
+      "small_title": "North Indian,Fast Food...",
+      "price": 450
+    },
+    {
+      "id": 15,
+      "img": "assets/card_img/manchurian.webp",
+      "title": "Parkash Dhaba",
+      "small_title": "North Indian,Fast Food...",
+      "counts": "19200+ orders placed recently from here",
+      "price": 450
+    }
+  ]
+}
